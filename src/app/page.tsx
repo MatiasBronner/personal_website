@@ -52,7 +52,7 @@ export default function HomePage() {
     description:
       "Built a modern, responsive personal portfolio website using React and Next.js, featuring animated text effects, smooth scrolling navigation, and a clean, professional design. Organized content into sections for projects, skills, and experience, with reusable components and sleek CSS styling to enhance usability and aesthetics.",
     skillsUsed: ["React", "Next.js", "CSS", "JavaScript", "Responsive Design"],
-    github: "https://github.com/yourusername/personal-website"
+    github: "https://github.com/MatiasBronner/personal_website"
   }, 
 
     {
