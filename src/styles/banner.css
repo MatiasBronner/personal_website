@@ -1,0 +1,105 @@
+:root {
+  --banner-bg: #3498db; /* Fresh teal color for banner */
+  --banner-color: white;
+  --banner-hover: #3498db; /* Slightly darker teal for hover */
+}
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--banner-bg);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.banner-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--banner-color);
+}
+
+.banner-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.banner-nav a {
+  color: var(--banner-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.banner-nav a:hover {
+  color: var(--banner-hover);
+}
+/* ---------------------- EXPERIENCES SECTION ---------------------- */
+.experiences-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--title-color);
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.experiences-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 3rem;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  justify-content: center;
+  width: 100%;
+}
+
+.experience-block {
+  background: var(--experience-bg);
+  border: 1px solid var(--experience-border);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+.experience-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--experience-border);
+}
+
+.experience-content {
+  padding: 1.5rem;
+}
+
+.experience-content h3 {
+  margin-top: 0;
+  color: var(--title-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.experience-content p {
+  line-height: 1.6;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .experiences-container {
+    grid-template-columns: 1fr;
+  }
+}
