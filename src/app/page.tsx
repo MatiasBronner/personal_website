@@ -46,6 +46,15 @@ export default function HomePage() {
     skillsUsed: ["Python", "Playwright", "TikTok API", "Whisper", "Pandas"],
     github: "https://github.com/MatiasBronner/trending_words"
   },
+    {
+    title: "FinTech@Brown Website",
+    image: "/project7.jpg",
+    description:
+      "Designed and developed a sleek, responsive website for FinTech@Brown using React and Next.js. Integrated Google Calendar and Forms APIs to display live events and member submissions, with animated text, interactive sections, and a futuristic design aesthetic.",
+    skillsUsed: ["React", "Next.js", "Google APIs", "CSS", "JavaScript"],
+    github: "https://github.com/MatiasBronner/fintech-website",
+    website: "https://fintech-at-brown-website.vercel.app/",
+  },
    {
     title: "Personal Website",
     image: "/project2.jpg",
@@ -82,6 +91,17 @@ export default function HomePage() {
     skillsUsed: ["Python", "Pandas", "NumPy", "scikit-learn", "TensorFlow/Keras"],
     github: ""
   },
+  
+
+  {
+    title: "Distributed Key-Value Store",
+    image: "/project8.jpg",
+    description:
+      "Built a distributed, sharded key-value store in C++ with a dynamic Shardmaster for server coordination. Implemented concurrency control with mutexes and readers-writer locks, ensuring scalability and consistency across distributed nodes.",
+    skillsUsed: ["C++", "Docker", "Distributed Systems", "Concurrency"],
+    github: "",
+    },
+
   ];
   const experiences = [
   {
@@ -187,6 +207,14 @@ export default function HomePage() {
                     className="project-github"
                   >
                     View on GitHub
+                  </a>
+                )}
+                {project.website && (
+                  <a href={project.website} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="project-github">
+                    View Website Here!
                   </a>
                 )}
               </div>

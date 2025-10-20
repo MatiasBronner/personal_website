@@ -15,6 +15,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 
 export const metadata = {
-  title: "Matias Bronner - Resume",
-  description: "Personal resume website",
+  title: "Matias Bronner",
+  description: "Personal website",
 };
