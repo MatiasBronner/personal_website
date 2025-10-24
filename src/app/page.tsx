@@ -63,6 +63,14 @@ export default function HomePage() {
     skillsUsed: ["React", "Next.js", "CSS", "JavaScript", "Responsive Design"],
     github: "https://github.com/MatiasBronner/personal_website"
   }, 
+  {
+  title: "Tetris",
+  image: "/project9.jpg",
+  description:
+    "Developed a fully functional version of Tetris in Java using JavaFX. Implemented smooth piece animation, keyboard controls, and accessible color design. Focused on object-oriented design, modular architecture, and event-driven programming to manage game state and user interaction.",
+  skillsUsed: ["Java", "JavaFX", "Object-Oriented Design", "Event-Driven Programming", "Accessibility"],
+  github: ""
+},
 
     {
       title: "Go AI Agent",
@@ -76,6 +84,7 @@ export default function HomePage() {
       skillsUsed: ["Python", "PyTorch", "AI", "MCTS", "Iterative Deepening Search"],
       github: ""
     },
+
     {
       "title": "High-Performance File I/O",
       "image": "/project3.jpg",
