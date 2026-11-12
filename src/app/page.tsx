@@ -34,7 +34,6 @@ export default function HomePage() {
     image: "/project1.jpg",
     description: "Built a full-stack Flask application that automatically collects medical product data from the web using Selenium, processes and summarizes it with Python and Pandas, and generates standardized product descriptions via the OpenAI API — including source references and highlighted screenshots. The app runs locally on St. Luke’s computers, saves finalized outputs to a shared drive, and uses parallel processing to efficiently generate descriptions while scraping.",
     skillsUsed: ["Python", "Flask", "Selenium", "OpenAI API", "Pandas"],
-    github: "https://github.com/MatiasBronner/st-lukes-repo"
   },
 
 
@@ -52,7 +51,7 @@ export default function HomePage() {
     description:
       "Designed and developed a sleek, responsive website for FinTech@Brown using React and Next.js. Integrated Google Calendar and Forms APIs to display live events and member submissions, with animated text, interactive sections, and a futuristic design aesthetic.",
     skillsUsed: ["React", "Next.js", "Google APIs", "CSS", "JavaScript"],
-    github: "https://github.com/MatiasBronner/fintech-website",
+    github: "https://github.com/MatiasBronner/fintech_at_brown_website",
     website: "https://fintech-at-brown-website.vercel.app/",
   },
    {
@@ -116,10 +115,9 @@ export default function HomePage() {
   {
     role: "Full Stack Intern",
     organization: "St. Luke's, Boise",
-    dates: "Summer 2024",
+    dates: "Summer 2025",
     description: "Developed the Medical Product Information Puller & Name Generator for St. Luke's supply chain, automating data extraction from PDFs and web sources, standardizing item names, and improving inventory tracking efficiency. Utilized Python, Flask, and the OpenAI API to streamline workflows and reduce manual processing time. See full detail of the project in Projects section.",
     image: "/experience1.jpg",
-    link: "https://github.com/MatiasBronner/st-lukes-repo" // replace with actual link if needed
   },
 
   {
